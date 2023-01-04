@@ -25,7 +25,7 @@
     "awesome-typescript-loader": "^3.1.2",
     "copy-webpack-plugin": "^4.5.2",
     "typescript": "next",
-    "webpack": "^3.4.1",
+    "webpack": "^5.75.0",
     "webpack-cli": "^3.1.0"
   }
 }

@@ -7,8 +7,6 @@ import {AbstractFacade} from "./AbstractFacade";
  *  Extend this class.
  */
 export class AbstractCommand extends puremvc.SimpleCommand implements puremvc.ICommand, AbstractNotifier {
-
-
     /**
      *
      * @param notification

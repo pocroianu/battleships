@@ -5,7 +5,6 @@ import {AbstractNotifier} from "./AbstractNotifier";
 import {AbstractFacade} from "./AbstractFacade";
 
 export class AbstractMediator extends puremvc.Mediator implements puremvc.IMediator, AbstractNotifier {
-
     /**
      *
      * @param mediatorName

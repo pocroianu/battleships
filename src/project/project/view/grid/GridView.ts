@@ -67,8 +67,7 @@ export class GridView extends AbstractSimpleView {
                                         this.currentNumberOfShips++;
                                         this.notifyThatPlayerFinishedPlacingTheShips();
                                     }
-                                }
-                                else if (newShipInfo[0] == GameSettings.ShipVerticalType) {
+                                } else if (newShipInfo[0] == GameSettings.ShipVerticalType) {
                                     let numberOfSquares: number = Math.round(position[3] / GameSettings.SquareWidth);
 
                                     if (this.currentNumberOfShips < this.maxShipsOnThisGrid) {

@@ -4,7 +4,6 @@ import {AbstractNotification} from "./AbstractNotification";
  * Extend this.
  */
 export class AbstractFacade extends puremvc.Facade implements puremvc.IFacade {
-
     /**
      *
      * @param key

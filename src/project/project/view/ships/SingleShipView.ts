@@ -78,8 +78,7 @@ export class SingleShipView extends AbstractSimpleView {
         if (player === GameSettings.PlayerOne) {
             this.shipGraphics.lineStyle(6, GameSettings.PlayerOneShipBorderColor);
             this.shipGraphics.beginFill(GameSettings.PlayerOneShipFillColor);
-        }
-        else if (player === GameSettings.PlayerTwo) {
+        } else if (player === GameSettings.PlayerTwo) {
             this.shipGraphics.lineStyle(6, GameSettings.PlayerTwoShipBorderColor);
             this.shipGraphics.beginFill(GameSettings.PlayerTwoShipFillColor);
         }
@@ -110,8 +109,7 @@ export class SingleShipView extends AbstractSimpleView {
             let shipType: string;
             if (this.width > this.height) {
                 shipType = GameSettings.ShipHorizontalType;
-            }
-            else if (this.width <= this.height) {
+            } else if (this.width <= this.height) {
                 shipType = GameSettings.ShipVerticalType;
             }
             BattleShipFacade.getInstance(GameSettings.BattleShipFacadeKey)

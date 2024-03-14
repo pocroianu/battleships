@@ -6,7 +6,6 @@ import {GameSettings} from "../staticInformation/GameSettings";
  *
  */
 export class PlayerProxy extends AbstractProxy {
-
     public players: Array<Player> = [];
 
     /**
@@ -33,8 +32,7 @@ export class PlayerProxy extends AbstractProxy {
     public getPlayer(player: string): Player {
         if (player == GameSettings.PlayerOne) {
             return this.players[0];
-        }
-        else if (player == GameSettings.PlayerTwo) {
+        } else if (player == GameSettings.PlayerTwo) {
             return this.players[1];
         }
     }

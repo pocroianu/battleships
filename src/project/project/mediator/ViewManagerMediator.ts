@@ -5,7 +5,6 @@ import {AbstractMediator} from "../../abstractClasses/AbstractMediator";
  *
  */
 export class ViewManagerMediator extends AbstractMediator {
-
     /**
      *
      * @param mediatorName

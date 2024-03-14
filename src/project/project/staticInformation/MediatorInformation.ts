@@ -1,6 +1,4 @@
 export class MediatorInformation {
-
-
     public static GridViewMediator = ['GridOneMediator', 'GridTwoMediator'];
     public static ButtonViewMediator = 'ButtonViewMediator';
     public static PlayerShipViewMediator = ['ShipPlayerOneMediator', 'ShipPlayerTwoMediator'];

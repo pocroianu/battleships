@@ -11,7 +11,6 @@ export class StartUpCommand extends AbstractCommand {
      * @param notification
      */
     public execute(notification: AbstractNotification) {
-
         this.sendNotification(Notifications.CREATE_GRID);
     }
 }

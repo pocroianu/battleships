@@ -1,5 +1,4 @@
 export class GameSettings {
-
     public static readonly Grid1XPosition = 100;
     public static readonly Grid1YPosition = 100;
     public static readonly Grid1BorderColor = 0x0000ff;

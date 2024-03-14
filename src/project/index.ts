@@ -1,12 +1,10 @@
 import {BattleShipFacade} from './project/facade/BattleShipFacade'
 import {GameSettings} from "./project/staticInformation/GameSettings";
 
-new class Main
-{
+new class Main {
     public myFacade: BattleShipFacade;
 
-    constructor()
-    {
+    constructor() {
         this.myFacade = BattleShipFacade.getInstance(GameSettings.BattleShipFacadeKey);
     };
 };

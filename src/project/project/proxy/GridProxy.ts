@@ -33,8 +33,7 @@ export class GridProxy extends AbstractProxy {
     public getGrid(player: string): Grid {
         if (player == GameSettings.PlayerOne) {
             return this.grids[0];
-        }
-        else if (player == GameSettings.PlayerTwo) {
+        } else if (player == GameSettings.PlayerTwo) {
             return this.grids[1];
         }
     }

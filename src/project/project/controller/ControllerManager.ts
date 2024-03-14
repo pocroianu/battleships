@@ -4,7 +4,6 @@ import {AbstractController} from "../../abstractClasses/AbstractController";
  * The BattleShip controller.
  */
 export class ControllerManager extends AbstractController {
-
     public static HitText: string = 'Hit';
     public static MissText: string = 'Miss';
     public static DefaultStateText: string = 'Non';

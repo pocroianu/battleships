@@ -2,7 +2,6 @@
  *
  */
 export class AbstractProxy extends puremvc.Proxy {
-
     /**
      *
      * @param proxyName

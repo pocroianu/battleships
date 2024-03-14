@@ -4,7 +4,6 @@ import {ControllerManager} from "../controller/ControllerManager";
  *
  */
 export class Square {
-
     public hit: string = ControllerManager.HitText;
     public miss: string = ControllerManager.MissText;
     public squareState: string = ControllerManager.DefaultStateText;

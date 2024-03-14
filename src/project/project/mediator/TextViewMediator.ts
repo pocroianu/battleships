@@ -10,6 +10,7 @@ import {Notifications} from "../staticInformation/Notifications";
  */
 export class TextViewMediator extends AbstractMediator {
     public name: String = 'TextViewMediator';
+
     /**
      *
      * @param mediatorName

@@ -18,8 +18,5 @@ export class AbstractNotifier extends puremvc.Notifier {
 
         let facade: any = AbstractFacade.getInstance(this.multitonKey);
         facade.sendNotification(name, body, type);
-
     };
-
-
 }

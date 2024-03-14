@@ -10,7 +10,6 @@ import {GameSettings} from "../staticInformation/GameSettings";
  *
  */
 export class PlayerShipsViewMediator extends AbstractMediator {
-
     private readonly _player: string;
 
     /**
@@ -62,8 +61,7 @@ export class PlayerShipsViewMediator extends AbstractMediator {
         containersList.push(super.getViewComponent().getUIContainer());
         if (player == GameSettings.PlayerOne) {
             BattleShipFacade.getInstance(GameSettings.BattleShipFacadeKey).addContainersToView(containersList, ViewManager.PlayerOneShipsContainer);
-        }
-        else if (player == GameSettings.PlayerTwo) {
+        } else if (player == GameSettings.PlayerTwo) {
             BattleShipFacade.getInstance(GameSettings.BattleShipFacadeKey).addContainersToView(containersList, ViewManager.PlayerTwoShipsContainer);
         }
     }

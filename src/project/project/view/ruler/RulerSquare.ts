@@ -42,8 +42,7 @@ export class RulerSquare extends AbstractSimpleView {
             text = new PIXI.Text(String.fromCharCode(asciiCode), {fill: textColor});
             text.anchor.set(0.5);
             text.position.set(xPosition + squareWidth / 2, yPosition + squareWidth / 2);
-        }
-        else if (type === 'NUMBER') {
+        } else if (type === 'NUMBER') {
             text = new PIXI.Text(asciiCode.toString(), {fill: textColor});
             text.anchor.set(0.5);
             text.position.set(xPosition + squareWidth / 2, yPosition + squareWidth / 2);

@@ -2,7 +2,6 @@
  *  Extend this class.
  */
 export class AbstractController extends puremvc.Controller implements puremvc.IController {
-
     public name: string = 'Controller';
     private multitonkey: string;
 

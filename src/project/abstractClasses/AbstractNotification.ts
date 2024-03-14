@@ -2,7 +2,6 @@
  *
  */
 export class AbstractNotification extends puremvc.Notification {
-
     /**
      *
      * @param name

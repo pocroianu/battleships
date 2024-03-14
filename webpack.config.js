@@ -28,9 +28,6 @@ module.exports = {
         "pixi.js": {
             root: 'PIXI'
         },
-        "pixi-spine": {
-            root: 'PIXI.spine'
-        },
         "puremvc": {
             root: "puremvc"
         }
@@ -39,10 +36,6 @@ module.exports = {
         new CopyWebpackPlugin([
             {
                 from: path.join(__dirname, 'node_modules/pixi.js/dist/pixi.js'),
-                to: path.join(__dirname, publicFolder, "js")
-            },
-            {
-                from: path.join(__dirname, 'node_modules/pixi-spine/bin/pixi-spine.js'),
                 to: path.join(__dirname, publicFolder, "js")
             },
             {

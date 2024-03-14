@@ -2,19 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/pixi-spine@^1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@types/pixi-spine/-/pixi-spine-1.4.2.tgz#9e4167d66278f6d2884f11cf55dab7b2520436e7"
-  dependencies:
-    pixi-spine "*"
-
 "@types/pixi.js@^4.5.2":
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/@types/pixi.js/-/pixi.js-4.8.0.tgz#961056751780046fe5da2166669a0f1e964a7b92"
-
-"@types/pixi.js@^4.8.0":
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/@types/pixi.js/-/pixi.js-4.8.1.tgz#f34f30aa70468a873bc418756c849d582ef9fced"
 
 abbrev@1:
   version "1.1.1"
@@ -1930,12 +1920,6 @@ pify@^3.0.0:
 pixi-gl-core@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/pixi-gl-core/-/pixi-gl-core-1.1.4.tgz#8b4b5c433b31e419bc379dc565ce1b835a91b372"
-
-pixi-spine@*, pixi-spine@^1.5.16:
-  version "1.5.18"
-  resolved "https://registry.yarnpkg.com/pixi-spine/-/pixi-spine-1.5.18.tgz#71f5ac72462f8ba97b895fb884ebf9e7540fa98d"
-  dependencies:
-    "@types/pixi.js" "^4.8.0"
 
 pixi.js@^4.5.4:
   version "4.8.2"
